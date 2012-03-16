@@ -1,0 +1,8 @@
+Instructions
+
+1. rsync everything over your phpbb install (board, not git repo).
+2. cd develop
+3. php extensions.php list
+4. You should see 3 extensions.
+5. Enable them: php extensions.php enable phpbb3-ext-subsilver-overall-header-addition
+6. rm -rf cache for good measure.
